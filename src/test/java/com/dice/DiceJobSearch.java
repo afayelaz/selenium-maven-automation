@@ -1,5 +1,6 @@
 package com.dice;
 
+import java.time.LocalDateTime;
 /*
  * Test case:
       Title: dice job search 
@@ -102,6 +103,8 @@ throw new RuntimeException("Step FAIL.Dice homepage not successfully loaded");
 		}
 		
 		driver.close();
+		
+		System.out.println("TEST COMPLETED " + LocalDateTime.now() );
 		
 		
 		
